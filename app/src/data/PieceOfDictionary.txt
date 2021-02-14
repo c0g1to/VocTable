@@ -1,0 +1,15 @@
+clothing:одежда
+clotted:свернувшийся
+clotty:запекшийся
+cloud:облако
+cloudberry:морошка
+cloudburst:ливень
+cloud-capped:закрытый облаками
+cloud-drift:плывущие облака
+cloudiness:облачность
+cloudland:сказочная страна
+cloudless:безоблачный
+cloudlet:облачко
+cloudscape:облачный пейзаж
+cloudy:облачный
+clough:ущелье

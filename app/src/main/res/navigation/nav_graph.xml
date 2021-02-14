@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/vocabularyFragment">
+
+    <fragment
+        android:id="@+id/vocabularyFragment"
+        android:name="com.shket.voctable.vocabulary.VocabularyFragment"
+        android:label="VocabularyFragment"
+        tools:layout="@layout/fragment_vocabulary" >
+        <action
+            android:id="@+id/action_vocabularyFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment" />
+        <action
+            android:id="@+id/action_vocabularyFragment_to_examFragment"
+            app:destination="@id/examFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.shket.voctable.dictionary.DictionaryFragment"
+        android:label="DictionaryFragment"
+        tools:layout="@layout/fragment_dictionary" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/examFragment"
+        android:name="com.shket.voctable.exam.ExamFragment"
+        android:label="ExamFragment"
+        tools:layout="@layout/fragment_exam" >
+    </fragment>
+
+</navigation>
